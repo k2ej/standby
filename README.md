@@ -4,9 +4,9 @@ Template repository for Morphe Patches.
 
 ## ❓ About
 
-Patches for apps I like.
+R3D PatchLab is a personal hobby project containing custom Android patches built using the Morphe patching framework.
 
-TODO: Update this about section with a brief introduction/summary about this repo and what it offers.
+I create these patches for fun, learning, and experimentation. I use AI extensively throughout the development process to help with code analysis, development, debugging, and documentation.
 
 ## 🩹 Patches list
 
@@ -72,15 +72,16 @@ To develop and release your Patches using this template:
 
 #### How to use these patches
 
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=xyz-user/xyz-patches
+Click here to add these patches to Morphe: [Add R3D PatchLab to Morphe](https://morphe.software/add-source?github=xxxR3Dxxx/R3D-PatchLab)
 
-Or manually add this repository url as a patch source in Morphe: https://github.com/xyz-user/xyz-patches
+Or manually add this repository as a patch source in Morphe: [R3D PatchLab](https://github.com/xxxR3Dxxx/R3D-PatchLab)
 
 ### 🛠️ Building
 
-To build UserXYZ Patches,
-you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
+To build R3D PatchLab, you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
 
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+## 📜 License
+
+R3D PatchLab is licensed under the [GNU General Public License v3.0](https://github.com/xxxR3Dxxx/R3D-PatchLab/blob/dev/LICENSE)
