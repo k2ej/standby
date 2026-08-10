@@ -82,6 +82,4 @@ To build R3D PatchLab, you can follow the [Morphe documentation](https://github.
 
 ## 📜 License
 
-## 📜 License
-
 R3D PatchLab is licensed under the [GNU General Public License v3.0](https://github.com/xxxR3Dxxx/R3D-PatchLab/blob/dev/LICENSE)
