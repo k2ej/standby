@@ -128,3 +128,13 @@ node_modules/
 # Ignore IDEA files
 .idea/
 local.properties
+
+# Local Morphe development files
+/tools/
+/test-apks/
+/output/
+/morphe-data/
+
+.gradle/gradle-daemon-jvm.properties
+
+/gradle/gradle-daemon-jvm.properties
