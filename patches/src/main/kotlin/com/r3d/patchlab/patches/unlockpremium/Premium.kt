@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.r3d.patchlab.patches.unlockpremium
 
 import app.morphe.patcher.Fingerprint
@@ -9,6 +11,8 @@ val forceTrueInXf8Patch = bytecodePatch(
     name = "Force true in xf8",
     description = "Forces xf8.invokeSuspend to always return true."
 ) {
+    compatibleWith("br.com.zetabit.ios_standby")
+
     execute {
         val fingerprint = Fingerprint(
             definingClass = "Lxf8;",

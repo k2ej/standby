@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.r3d.patchlab.patches.pairip
 
 import app.morphe.patcher.Fingerprint
@@ -12,6 +14,8 @@ val disableLicenseCheckPatch = bytecodePatch(
     description = "Disables PairIP client-side license check.",
     default = false
 ) {
+    compatibleWith("br.com.zetabit.ios_standby")
+
     execute {
         var patched = false
 
