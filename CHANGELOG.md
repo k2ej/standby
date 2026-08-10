@@ -1,3 +1,9 @@
+## [1.0.0-dev.3](https://github.com/xxxR3Dxxx/R3D-PatchLab/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-08-10)
+
+### ✨ New Features
+
+* update StandBy patches ([1d7c7a1](https://github.com/xxxR3Dxxx/R3D-PatchLab/commit/1d7c7a16abc426094357cf47bc4fc3951652f887))
+
 ## [1.0.0-dev.2](https://github.com/xxxR3Dxxx/R3D-PatchLab/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-08-10)
 
 ### 🐛 Bug Fixes

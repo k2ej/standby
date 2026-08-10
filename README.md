@@ -11,7 +11,7 @@ I create these patches for fun, learning, and experimentation. I use AI extensiv
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.2](https://github.com/xxxR3Dxxx/R3D-PatchLab/releases/tag/v1.0.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.0.0-dev.3](https://github.com/xxxR3Dxxx/R3D-PatchLab/releases/tag/v1.0.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 br.com.zetabit.ios_standby&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
@@ -19,8 +19,8 @@ I create these patches for fun, learning, and experimentation. I use AI extensiv
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Disable Pairip license check](#disable-pairip-license-check) | Disables PairIP client-side license check. |  |
-| [Force true in xf8](#force-true-in-xf8) | Forces xf8.invokeSuspend to always return true. |  |
 | [Rename StandBy](#rename-standby) | Changes the launcher name to R3D StandBy. |  |
+| [Unlock Premium](#unlock-premium) | Unlock Premium Features. |  |
 
 </details>
 
