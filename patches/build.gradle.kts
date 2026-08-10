@@ -1,14 +1,13 @@
-group = "app.template"
+group = "com.r3dtechlabs"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "R3D PatchLab"
+        description = "Morphe patches maintained by R3D PatchLab"
+        source = "git@github.com:xxxR3Dxxx/R3D-PatchLab.git"
+        author = "R3D"
         contact = "na"
-        website = "na"
+        website = "https://github.com/xxxR3Dxxx/R3D-PatchLab"
         license = "GPLv3"
     }
 }
