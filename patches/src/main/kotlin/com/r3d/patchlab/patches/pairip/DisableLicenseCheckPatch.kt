@@ -12,7 +12,7 @@ import java.util.logging.Logger
 val disableLicenseCheckPatch = bytecodePatch(
     name = "Disable Pairip license check",
     description = "Disables PairIP client-side license check.",
-    default = false
+    default = true
 ) {
     compatibleWith("br.com.zetabit.ios_standby")
 

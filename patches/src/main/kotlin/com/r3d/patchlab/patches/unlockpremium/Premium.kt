@@ -8,8 +8,8 @@ import app.morphe.patcher.patch.bytecodePatch
 
 @Suppress("unused")
 val forceTrueInXf8Patch = bytecodePatch(
-    name = "Force true in xf8",
-    description = "Forces xf8.invokeSuspend to always return true."
+    name = "Unlock Premium",
+    description = "Unlock Premium Features."
 ) {
     compatibleWith("br.com.zetabit.ios_standby")
 
