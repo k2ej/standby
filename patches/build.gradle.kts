@@ -1,12 +1,12 @@
-group = "com.r3d.patchlab"
+group = "com.r3dtechlabs"
 
 patches {
     about {
         name = "R3D PatchLab"
-        description = "Custom patches for Android apps"
+        description = "Morphe patches maintained by R3D PatchLab"
         source = "git@github.com:xxxR3Dxxx/R3D-PatchLab.git"
         author = "R3D"
-        contact = "https://github.com/xxxR3Dxxx"
+        contact = "na"
         website = "https://github.com/xxxR3Dxxx/R3D-PatchLab"
         license = "GPLv3"
     }
