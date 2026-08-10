@@ -5,14 +5,21 @@ package com.r3d.patchlab.patches.unlockpremium
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.ApkFileType
+import app.morphe.patcher.patch.Compatibility
 
 @Suppress("unused")
 val forceTrueInXf8Patch = bytecodePatch(
     name = "Unlock Premium",
     description = "Unlock Premium Features."
 ) {
-    compatibleWith("br.com.zetabit.ios_standby")
-
+    compatibleWith(
+        Compatibility(
+            packageName = "br.com.zetabit.ios_standby",
+            name = "StandBy Mode",
+            apkFileType = ApkFileType.APKM
+        )
+    )
     execute {
         val fingerprint = Fingerprint(
             definingClass = "Lxf8;",

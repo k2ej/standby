@@ -7,6 +7,8 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import java.util.logging.Logger
+import app.morphe.patcher.patch.ApkFileType
+import app.morphe.patcher.patch.Compatibility
 
 @Suppress("unused")
 val disableLicenseCheckPatch = bytecodePatch(
@@ -14,8 +16,13 @@ val disableLicenseCheckPatch = bytecodePatch(
     description = "Disables PairIP client-side license check.",
     default = true
 ) {
-    compatibleWith("br.com.zetabit.ios_standby")
-
+    compatibleWith(
+        Compatibility(
+            packageName = "br.com.zetabit.ios_standby",
+            name = "StandBy Mode",
+            apkFileType = ApkFileType.APKM
+        )
+    )
     execute {
         var patched = false
 
