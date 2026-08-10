@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-dev.3",
+  "version": "1.0.0-dev.4",
   "patches": [
     {
       "name": "Disable Pairip license check",
@@ -10,9 +10,9 @@
       "compatiblePackages": [
         {
           "packageName": "br.com.zetabit.ios_standby",
-          "name": null,
+          "name": "StandBy Mode",
           "description": null,
-          "apkFileType": null,
+          "apkFileType": "APKM",
           "appIconColor": null,
           "signatures": null,
           "targets": [
@@ -36,9 +36,9 @@
       "compatiblePackages": [
         {
           "packageName": "br.com.zetabit.ios_standby",
-          "name": null,
+          "name": "StandBy Mode",
           "description": null,
-          "apkFileType": null,
+          "apkFileType": "APKM",
           "appIconColor": null,
           "signatures": null,
           "targets": [
@@ -62,9 +62,9 @@
       "compatiblePackages": [
         {
           "packageName": "br.com.zetabit.ios_standby",
-          "name": null,
+          "name": "StandBy Mode",
           "description": null,
-          "apkFileType": null,
+          "apkFileType": "APKM",
           "appIconColor": null,
           "signatures": null,
           "targets": [

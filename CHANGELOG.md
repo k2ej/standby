@@ -1,3 +1,9 @@
+## [1.0.0-dev.4](https://github.com/xxxR3Dxxx/R3D-PatchLab/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2026-08-10)
+
+### ✨ New Features
+
+* add StandBy app metadata ([a9f5601](https://github.com/xxxR3Dxxx/R3D-PatchLab/commit/a9f5601ee18224d89e65d4a0bb2e66ace6826aef))
+
 ## [1.0.0-dev.3](https://github.com/xxxR3Dxxx/R3D-PatchLab/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-08-10)
 
 ### ✨ New Features
