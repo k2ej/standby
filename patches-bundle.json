@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-10T22:56:42",
-  "description": "## [1.0.0-dev.4](https://github.com/xxxR3Dxxx/R3D-PatchLab/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2026-08-10)\n\n### ✨ New Features\n\n* add StandBy app metadata ([a9f5601](https://github.com/xxxR3Dxxx/R3D-PatchLab/commit/a9f5601ee18224d89e65d4a0bb2e66ace6826aef))",
-  "download_url": "https://github.com/xxxR3Dxxx/R3D-PatchLab/releases/download/v1.0.0-dev.4/patches-1.0.0-dev.4.mpp",
+  "created_at": "2026-08-11T16:41:12",
+  "description": "## [1.0.1-dev.2](https://github.com/xxxR3Dxxx/R3D-PatchLab/compare/v1.0.1-dev.1...v1.0.1-dev.2) (2026-08-11)\n\n### 🐛 Bug Fixes\n\n* regenerate Morphe release metadata ([967b2d1](https://github.com/xxxR3Dxxx/R3D-PatchLab/commit/967b2d124d0678945bb5b7a08d2808691c055315))",
+  "download_url": "https://github.com/xxxR3Dxxx/R3D-PatchLab/releases/download/v1.0.1-dev.2/patches-1.0.1-dev.2.mpp",
   "signature_download_url": "",
-  "version": "1.0.0-dev.4"
+  "version": "1.0.1-dev.2"
 }

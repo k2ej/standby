@@ -11,11 +11,7 @@ import app.morphe.patcher.patch.ApkFileType
 import app.morphe.patcher.patch.Compatibility
 
 @Suppress("unused")
-val disableLicenseCheckPatch = bytecodePatch(
-    name = "Disable Pairip license check",
-    description = "Disables PairIP client-side license check.",
-    default = true
-) {
+val disableLicenseCheckPatch = bytecodePatch {
     compatibleWith(
         Compatibility(
             packageName = "br.com.zetabit.ios_standby",

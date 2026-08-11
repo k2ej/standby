@@ -1,3 +1,9 @@
+## [1.0.1-dev.2](https://github.com/xxxR3Dxxx/R3D-PatchLab/compare/v1.0.1-dev.1...v1.0.1-dev.2) (2026-08-11)
+
+### 🐛 Bug Fixes
+
+* regenerate Morphe release metadata ([967b2d1](https://github.com/xxxR3Dxxx/R3D-PatchLab/commit/967b2d124d0678945bb5b7a08d2808691c055315))
+
 ## [1.0.0-dev.4](https://github.com/xxxR3Dxxx/R3D-PatchLab/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2026-08-10)
 
 ### ✨ New Features
