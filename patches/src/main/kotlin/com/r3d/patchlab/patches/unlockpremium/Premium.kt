@@ -7,12 +7,15 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.patch.ApkFileType
 import app.morphe.patcher.patch.Compatibility
+import com.r3d.patchlab.patches.pairip.disableLicenseCheckPatch
 
 @Suppress("unused")
 val forceTrueInXf8Patch = bytecodePatch(
     name = "Unlock Premium",
     description = "Unlock Premium Features."
 ) {
+    dependsOn(disableLicenseCheckPatch)
+
     compatibleWith(
         Compatibility(
             packageName = "br.com.zetabit.ios_standby",
