@@ -47,7 +47,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": null,
+              "version": "2.1.19.558",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
